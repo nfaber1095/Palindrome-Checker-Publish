@@ -43,3 +43,13 @@ font-family: Geneva, Tahoma, sans-serif;
     padding-bottom: 3px;
     border-radius: 5px;
 }
+
+@media (max-width: 950px) {
+    body {
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .title, .label {
+        text-align: center;
+    }
+}
