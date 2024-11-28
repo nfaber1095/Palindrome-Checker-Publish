@@ -1,0 +1,45 @@
+*, ::before, ::after {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+  
+  
+Body {width: 100%;
+Height: 100vh;
+Overflow: hidden;
+background-color: rgb(10, 5, 41);
+font-family: Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 5vh;
+}
+
+.wrap {
+    background-color: azure;
+    min-height: 20vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 0 6px 6px #002ead;
+}
+
+.palindrome-btn {
+    background: #5a01a7;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+}
